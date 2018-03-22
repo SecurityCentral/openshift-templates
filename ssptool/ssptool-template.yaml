@@ -23,7 +23,7 @@ objects:
     source:
       git:
         ref: master
-        uri: https://github.com/jenglish/ssptool
+        uri: https://github.com/SecurityCentral/ssptool
       type: Git
     strategy:
       sourceStrategy:
