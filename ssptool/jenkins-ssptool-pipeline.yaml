@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: List
+metadata: {}
+items:
+- apiVersion: v1
+  kind: BuildConfig
+  metadata:
+    name: ssptool-pipeline
+  spec:
+    source:
+      git:
+        uri: https://github.com/SecurityCentral/ssptool
+      type: Git
+    strategy:
+      type: JenkinsPipeline
+      jenkinsPipelineStrategy:
+        jenkinsfilePath: Jenkinsfile
