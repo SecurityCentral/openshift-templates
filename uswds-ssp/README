@@ -1,0 +1,14 @@
+# Using the USWDS-SSP Template
+
+1. Log into OpenShift
+
+2. Add template to project
+
+## Template Installation CLI
+
+oc create -f uswds-ssp-template.yaml -n <your_project_namespace>
+
+## Template Installation WebUI
+
+3. 
+
